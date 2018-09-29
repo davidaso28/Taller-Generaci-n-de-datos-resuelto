@@ -1,0 +1,30 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Test;
+
+import uk.co.jemos.podam.api.PodamFactory;
+import uk.co.jemos.podam.api.PodamFactoryImpl;
+
+class Pruebas {
+
+	@Test
+	void test() {
+		// Simplest scenario. Will delegate to Podam all decisions
+		PodamFactory factory = new PodamFactoryImpl();
+
+		// This will use constructor with minimum arguments and
+		// then setters to populate POJO
+		Book myPojo = factory.manufacturePojo(Book.class);
+
+		// This will use constructor with maximum arguments and
+		// then setters to populate POJO
+		Books myPojo2 = factory.manufacturePojoWithFullData(Book.class);
+
+		// If object instance is already available,
+		// Podam can fill it with random data
+		Pojo myPojo3 = MyFactory.getPojoInstance();
+		factory.populatePojo(myPojo3);
+	}
+	 
+
+}

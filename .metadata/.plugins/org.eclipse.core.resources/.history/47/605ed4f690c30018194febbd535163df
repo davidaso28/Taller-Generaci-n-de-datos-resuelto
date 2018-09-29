@@ -1,0 +1,32 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Test;
+
+import com.j256.ormlite.dao.Dao;
+import com.j256.ormlite.dao.DaoManager;
+
+import uk.co.jemos.podam.api.PodamFactory;
+import uk.co.jemos.podam.api.PodamFactoryImpl;
+
+class Pruebas {
+
+	
+	@Test
+	void test() {
+		private Dao<Book, Integer> bookDao;
+		private Dao<Author, Integer> authorDao;
+		private Dao<Customer, Integer> customerDao;
+		private final static String DATABASE_URL = "jdbc:mysql://localhost/taller7";
+		bookDao = DaoManager.createDao(connectionSource, Book.class);
+		// Simplest scenario. Will delegate to Podam all decisions
+		PodamFactory factory = new PodamFactoryImpl();
+		// This will use constructor with maximum arguments and
+		// then setters to populate POJO
+		Book book = factory.manufacturePojoWithFullData(Book.class);
+		orderDao.create(order1);
+
+		
+	}
+	 
+
+}

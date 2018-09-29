@@ -1,0 +1,8 @@
+import java.util.Date;
+
+public class Author {
+
+private String name;
+private Date birthdate;
+private String nationality;
+}

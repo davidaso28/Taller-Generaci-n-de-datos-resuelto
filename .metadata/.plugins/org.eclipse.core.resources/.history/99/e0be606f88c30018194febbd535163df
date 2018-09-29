@@ -1,0 +1,11 @@
+@DatabaseTable(tableName = "Books")
+public class Book {
+	
+	private int Id;
+	private String name;
+	private int year;
+	private String url;
+	private Author author;
+	private String editorial;
+
+}

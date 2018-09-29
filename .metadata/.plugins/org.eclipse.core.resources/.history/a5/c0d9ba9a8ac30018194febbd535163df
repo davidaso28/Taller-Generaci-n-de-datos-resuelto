@@ -1,0 +1,12 @@
+import java.util.Date;
+
+import com.j256.ormlite.field.DatabaseField;
+
+public class Author {
+
+private int id;
+@DatabaseField(columnName = "NAME", canBeNull = false)
+private String name;
+private Date birthdate;
+private String nationality;
+}

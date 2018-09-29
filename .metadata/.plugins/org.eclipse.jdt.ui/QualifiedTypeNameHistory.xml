@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.table.DatabaseTable"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.field.DatabaseField"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.support.ConnectionSource"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.dao.DaoManager"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.dao.Dao"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.table.TableUtils"/>
+<fullyQualifiedTypeName name="com.j256.ormlite.jdbc.JdbcConnectionSource"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="uk.co.jemos.podam.api.PodamFactoryImpl"/>
+<fullyQualifiedTypeName name="uk.co.jemos.podam.api.PodamFactory"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="uk.co.jemos.podam.common.PodamStringValue"/>
+<fullyQualifiedTypeName name="uk.co.jemos.podam.common.PodamIntValue"/>
+<fullyQualifiedTypeName name="uk.co.jemos.podam.common.PodamExclude"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+</qualifiedTypeNameHistroy>

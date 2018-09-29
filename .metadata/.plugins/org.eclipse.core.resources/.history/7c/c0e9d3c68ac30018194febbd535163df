@@ -1,0 +1,11 @@
+import com.j256.ormlite.field.DatabaseField;
+
+public class Customer {
+	
+	@DatabaseField(generatedId = true)
+	private int id;
+	private String name;
+	private String lastname;
+	private int age;
+	private String nickname;
+}
